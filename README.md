@@ -1,5 +1,7 @@
 # Vielbein Lattice Boltzmann Method for Fluid Flows on Spherical Surfaces
 
+![img](imgs/vortexes_snapshots.png)
+
 This repository provides a simplified python implementation of the numerical method
 introduced in [arxiv.org/abs/2504.15574](https://arxiv.org/abs/2504.15574)), which 
 develops a lattice Boltzmann scheme based on the vielbein formalism for the study of fluid flows on spherical surfaces.  
@@ -10,11 +12,19 @@ We provide two implementations:
 
 ```bibtex
 @article{ambrus2025vielbein,
-  title={Vielbein Lattice Boltzmann approach for fluid flows on spherical surfaces},
-  author={Ambrus, Victor E and Bellantoni, Elisa and Busuioc, Sergiu and Gabbana, Alessandro and Toschi, Federico},
-  journal={arXiv preprint arXiv:2504.15574},
-  year={2025}
+  title = {Vielbein Lattice Boltzmann approach for fluid flows on spherical surfaces},
+  author = {Ambrus, Victor E and Bellantoni, Elisa and Busuioc, Sergiu and Gabbana, Alessandro and Toschi, Federico},
+  journal = {Phys. Rev. Fluids},
+  volume = {10},
+  issue = {12},
+  pages = {124901},
+  numpages = {41},
+  year = {2025},
+  month = {Dec},
+  publisher = {American Physical Society},
+  doi = {10.1103/k6z2-rqdw}
 }
+
 ```
 
 ## Installation
@@ -27,7 +37,6 @@ We provide two implementations:
 - `scipy`
 - `argparse`
 - `tqdm`
-- `glob`
 - `numba` (for the accelerated version)
 
 ### Setup
